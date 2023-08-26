@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "marked": "^7.0.4",
+    "octokit": "^3.1.0"
+  }
+}

@@ -1,0 +1,70 @@
+/* Estilo para o body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Cor de fundo padrão */
+    color: #333; /* Cor de texto padrão */
+  }
+  
+  /* Container para o grid de cards */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 cards por linha no PC */
+    gap: 20px; /* Espaçamento entre os cards */
+    padding: 20px;
+  }
+  
+  /* Estilo para os cards */
+  .card {
+    background-color: #fff; /* Fundo branco */
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    background-color: #f5f5f5; /* Fundo mais claro ao passar o mouse */
+  }
+  
+  /* Modo escuro */
+  body.dark-mode {
+    background-color: #333; /* Fundo escuro */
+    color: #f0f0f0; /* Texto claro */
+  
+    /* Estilo para os cards no modo escuro */
+    .card {
+      background-color: #444; /* Fundo escuro para os cards */
+      color: #f0f0f0; /* Texto claro para os cards */
+    }
+  
+    /* Estilo para os cards no modo escuro quando hover */
+    .card:hover {
+      background-color: #555; /* Fundo mais escuro ao passar o mouse */
+    }
+  }
+  
+  /* Estilo para a página de detalhes */
+  #detail-content {
+    background-color: #fff; /* Fundo branco */
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  #detail-content img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Estilos para diferentes tamanhos de tela */
+  @media (max-width: 768px) {
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr); /* 2 cards por linha no celular */
+    }
+  }
+  
