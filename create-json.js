@@ -3,7 +3,7 @@ const { Octokit } = require("octokit");
 
 async function generateJSON() {
   try {
-    const octokit = new Octokit({ auth: '${{secrets.GIT_TOKEN}}' });
+    const octokit = new Octokit({ auth: process.env.GIT_TOKEN });
 
     // Use a API do GitHub para obter as informações do arquivo portfolios.json
     const response = await octokit.request('GET /repos/:owner/:repo/contents/:path', {
