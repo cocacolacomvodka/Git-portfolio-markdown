@@ -21,12 +21,11 @@ jobs:
         run: npm install
 
       - name: Run script
-        run: node create-json.js  # Certifique-se de que o seu script esteja na raiz do repositório
+        run: node create-json.js
 
       - name: Commit JSON file
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add portfolios.json
           git commit -am "Update portfolios.json" || true
           git push
