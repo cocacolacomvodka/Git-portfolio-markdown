@@ -2,8 +2,7 @@ name: Generate JSON
 
 on:
   push:
-    branches:
-      - main  # Escolha a branch na qual o fluxo de trabalho deve ser acionado
+     branches: ["main"]
 
 jobs:
   generate:
