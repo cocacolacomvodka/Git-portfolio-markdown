@@ -20,7 +20,7 @@ async function generateJSON() {
   }
 
   // Usar o Octokit para criar/atualizar o arquivo no repositório
-  const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
+  const octokit = new Octokit({ auth: process.env.GIT_TOKEN });
 
   await octokit.request('PUT /repos/:owner/:repo/contents/:path', {
     owner: 'cocacolacomvodka',
