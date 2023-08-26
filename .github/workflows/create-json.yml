@@ -1,26 +1,32 @@
-name: Generate Portfolios JSON
+name: Generate JSON
 
 on:
   push:
-    branches: ["main"]
-    paths:
-      - 'portfolios/*.md' # Define o padrão para monitorar os arquivos .md
+    branches:
+      - main  # Escolha a branch na qual o fluxo de trabalho deve ser acionado
 
 jobs:
-  generate-json:
+  generate:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repository
+      - name: Checkout code
         uses: actions/checkout@v2
 
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: 18
+          node-version: '14'
 
-      - name: Install Dependencies
+      - name: Install dependencies
         run: npm install
 
-      - name: Generate JSON
-        run: node create-json.js
+      - name: Run script
+        run: node create-json.js  # Certifique-se de que o seu script esteja na raiz do repositório
+
+      - name: Commit JSON file
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -am "Update portfolios.json" || true
+          git push
