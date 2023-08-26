@@ -27,5 +27,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          git add portfolio.json
           git commit -am "Update portfolios.json" || true
           git push
