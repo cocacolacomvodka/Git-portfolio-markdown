@@ -14,8 +14,20 @@ async function generateJSON() {
 
     const existingShaOfPortfoliosJson = response.data.sha; // Obtenha o SHA do último commit
 
-    // ... o restante do seu código para gerar o arquivo JSON
+    // ... seu código para gerar a variável portfolios
+    const portfolioFiles = await fs.readdir("portfolios");
 
+    const portfolios = await Promise.all(portfolioFiles.map(async (filename) => {
+      const fileContent = await fs.readFile(`portfolios/${filename}`, "utf-8");
+      const [title, description] = fileContent.split("\n");
+
+      return { title, description, fileContent };
+    }));
+
+    // Escreva o arquivo JSON
+    await fs.writeFile("portfolios.json", JSON.stringify(portfolios, null, 2));
+
+    // Atualize o arquivo no repositório
     await octokit.request('PUT /repos/:owner/:repo/contents/:path', {
       owner: 'cocacolacomvodka',
       repo: 'Git-portfolio-markdown',
