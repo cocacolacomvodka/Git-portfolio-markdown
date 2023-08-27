@@ -11,9 +11,11 @@ async function createCards() {
         card.addEventListener("click", () => redirectToDetailPage(index)); // Adiciona o evento de clique
   
         const titleElement = document.createElement("div");
+        titleElement.classList.add("foto");
         titleElement.innerHTML = marked(portfolio.title);
   
         const descriptionElement = document.createElement("div");
+        descriptionElement.classList.add("nome");
         descriptionElement.innerHTML = marked(portfolio.description); // Renderiza o Markdown em HTML
   
         card.appendChild(titleElement);

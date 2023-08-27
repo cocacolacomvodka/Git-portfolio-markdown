@@ -1,5 +1,8 @@
+![joaog.jpg](/portfolios/fotos/joaog.jpg)
 # João Gabriel de Almeida
-Front-end dev
+
+## Front-end dev
+
 ## Informações de Contato
 
 - **E-mail:** joaogabrielde.almeida@hotmail.com

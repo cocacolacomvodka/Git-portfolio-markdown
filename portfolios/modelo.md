@@ -1,5 +1,6 @@
-# *MODELO* Seu Nome Completo
-Area de atuação
+![joaog.jpg](/portfolios/fotos/placeholder.png)
+# ** MODELO **
+(coloque seu nome na linha de cima)
 ## Informações de Contato
 
 - **E-mail:** seuemail@example.com
