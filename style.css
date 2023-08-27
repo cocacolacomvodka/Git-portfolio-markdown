@@ -14,7 +14,7 @@ body {
   /* Container para o grid de cards */
   .grid-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 cards por linha no PC */
+    grid-template-columns: repeat(3, 1fr); /* 4 cards por linha no PC */
     gap: 20px; /* Espaçamento entre os cards */
     padding: 20px;
   }
@@ -82,7 +82,7 @@ body {
   /* Estilos para diferentes tamanhos de tela */
   @media (max-width: 768px) {
     .grid-container {
-      grid-template-columns: repeat(2, 1fr); /* 2 cards por linha no celular */
+      grid-template-columns: repeat(1, 1fr); /* 2 cards por linha no celular */
     }
   }
   
