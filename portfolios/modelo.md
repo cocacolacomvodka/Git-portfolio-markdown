@@ -1,4 +1,4 @@
-![placeholder.jpg](fotos/placeholder.png)
+![placeholder.jpg](/fotos/placeholder.png)
 # ** MODELO **
 (coloque seu nome na linha de cima)
 ## Informações de Contato
