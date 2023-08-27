@@ -6,12 +6,7 @@
   },
   {
     "title": "# João Gabriel de Almeida",
-    "description": "dev front-end react - IFSUL Venâncio Aires",
-    "fileContent": "# João Gabriel de Almeida\ndev front-end react - IFSUL Venâncio Aires\n\nportifólio completo em md\n\n---\n# Social\n[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/jgde.almeida)\n[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://br.linkedin.com/in/joao-de-almeida9)\n"
-  },
-  {
-    "title": "# Paulo Masoquista",
-    "description": "Personagem do Tibia - joga mto",
-    "fileContent": "# Paulo Masoquista\nPersonagem do Tibia - joga mto\n"
+    "description": "Front-end dev",
+    "fileContent": "# João Gabriel de Almeida\nFront-end dev\n## Informações de Contato\n\n- **E-mail:** joaogabrielde.almeida@hotmail.com\n- **Telefone:** (51) 99514-3460\n- **LinkedIn:** [linkedin.com/in/joao-de-almeida9](https://www.linkedin.com/in/joao-de-almeida9)\n- **GitHub:** [github.com/cocacolacomvodka](https://github.com/cocacolacomvodka)\n\n## Resumo\n\nEu sou um desenvolvedor entusiasta e apaixonado por tecnologia, com experiência em desenvolvimento web e programação. Tenho habilidades em linguagens como JavaScript e Java, bem como conhecimento em frameworks como React.\n\n## Educação\n\n### Técnico em Informática | IFSUL - Câmpus Venâncio Aires | Venâncio Aires, RS | 2021 - 2024\n\n- Principais áreas de estudo: Programação OB, Programação Web, Informática instrumental.\n- Participação em projetos:\n    - PlaMoNA: Plataforma de monitoramento do nível das águas | Desenvolvido em Javascript e React;\n    - Git-portfolio-markdown: Site criado para a oficina de Git e Github da VII Movaci | Desenvolvido em Javascript e HTML;\n    - Empreenda: Plataforma companion do jogo desenvolvido para o projeto de prática de extensão Empreenda | Desenvolvido em Javascript, React e MongoDB;\n\n## Habilidades Técnicas\n\n- Linguagens de Programação: JavaScript, Java.\n- Frameworks: React.\n- Ferramentas de Controle de Versão: Git, GitHub.\n- Linguagens Web: HTML, CSS.\n- Bancos de Dados: MySQL, MongoDB.\n\n## Projetos Pessoais\n\n### Web | [Link do Repositório](https://github.com/cocacolacomvodka/web)\n\nSite para organização das atividades desenvolvidas nas disciplinas de programação web e web design.\n\n### CepReact | [Link do Repositório](https://github.com/cocacolacomvodka/cepdesign)\n\nUm consultor de cep e previsão do tempo construído em React.\n\n## Idiomas\n\n- Português (nativo)\n- Inglês (avançado)\n\n## Interesses\n\nDesenvolvimento web, programação, tecnologia, inovação, música.\n\n---\nÚltima atualização: 08/2023"
   }
 ]
