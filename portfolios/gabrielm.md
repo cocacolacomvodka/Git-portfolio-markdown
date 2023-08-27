@@ -1,4 +1,4 @@
-![gabrielm.jpg](/fotos/gabrielm.png)
+![gabrielm.jpg](fotos/gabrielm.png)
 # Gabriel Monteiro
 
 dev backend - IFSUL Venâncio Aires

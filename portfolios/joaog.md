@@ -1,4 +1,4 @@
-![joaog.jpg](/fotos/joaog.jpg)
+![joaog.jpg](fotos/joaog.jpg)
 # João Gabriel de Almeida
 
 ## Front-end dev
